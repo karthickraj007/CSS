@@ -1,0 +1,50 @@
+<!-- Css Box Model -->
+<!-- Every Html element is a rectangular box -->
+<!-- Box Properties
+    important->Each rectangular box has different properties.
+    (1)->Height
+    (2)->Width
+    (3)->Margin->spacing between two elements(outer space).
+    (4)->Padding->spacing between content(inner space). 
+        =>Avoid margin-left and margin-right properties for bootstrap columns it disturbs bootstrap grid system and give unexpected results.
+    (5)->Border(border-width,border-style,color)
+ -->
+
+<!-- 
+    ViewPort is the area of the window in which web content can be seen
+
+    ViewPort Height(vh) 50vh = 50% area of height visisble to user
+    ViewPort Height(vh) 100vh = 100% area of height visisble to user
+
+    ViewPort Width(vw) 50vw = 50% area of width visisble to user
+    ViewPort width(vw) 100vw = 100% area of width visisble to user
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/CSS&Bootstrap/CSS/Box-Model/Box-Properties.css"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-container">
+        <h1>Tourism</h1>
+        <p>Plan Your trip</p>
+        <button class="button">Get Started</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- When to use 'px' vs 'vw':
+
+Use 'px' when you want to set an exact size for an element. It provides consistency across different screens and devices.
+
+Use 'vw' when you want to create a responsive design that adapts to different screen sizes. It allows elements to scale based on the size of the viewport. -->

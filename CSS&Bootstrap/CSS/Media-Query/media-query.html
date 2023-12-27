@@ -1,0 +1,54 @@
+<!-- 
+    Media query
+        (1)->media queries play a crucial part while developing responsive Layouts.
+        (2)->using media queries you can apply css based on the device type(eg.printers, tv) and media features(eg. viewport width)
+    syntax:
+        @media media-type and (media-feature-expression){
+            css rules go here
+        }
+    Media Types:
+        media types describe the general category of device.
+        possible types of media-type:
+            (1)->screen(mobile laptops desktops)
+            (2)->print
+            (3)->Tv
+
+    Media-feature:->(1)height(min,max) (2)weight(min,max) (3)orientation
+        using media-feature we can write media query for specfic feature.
+        if(width === 800px) => @media(width:800px)
+        if(width <= 799 px) => @media(max-width:799px)
+        if(width >= 801 px) => @media(min-width:799px)
+
+        orientation:
+          landscape- The width of the device is greater than the height.
+          portrait- The width of the device is less than the height.
+            ex->@media (orientation: landscape) 
+                @media (orientation: portrait)
+
+    logical-operators->and not ,(comma)
+        (1)->Using and operator can combine multiple Media Features together
+          and =>@media (media-feature-expression) and (media-feature-expression)
+            ex=>@media (orientation: landscape) and (min-width:600px)
+
+        (2)->using not operator(we must specify media type) is a Media Query Modifier.
+            it negates the entire Media query result
+
+         (3)->Using ,(comma) operator we can combine mulitiple media queries if style is same.
+              it will be apply the style either of the condition is satisfy
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/CSS&Bootstrap/CSS/Media-Query/media-query.css"
+    />
+  </head>
+  <body>
+    <div class="bg-container"></div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!-- Flexbox, or Flex, is a layout mode in CSS3 that makes it easier to design flexible responsive layout structure without using float or positioning.
+
+In flexbox, there are two types of containers:
+
+Parent Container: It is created by setting display property to flex or inline-flex.
+
+Child Elements: These are the elements inside the parent container. -->
+
+<!-- (1)->FlexBox (stable)
+    Flexbox is a layout method that helps to arrange the html element in rows(horizontally) or columns(vertically)
+        flexbox properties
+            (1)->flexbox container
+            (2)->direction(row column)->default row
+            (3)->Justify content-> row(horizontal) position(start,center,end,space-around,space-between,evenly)
+            (4)->Align items->column(vertical) position(start center end, stretch)
+            (5)->Align Self->column(vertical)The align-self property specifies the alignment in the block direction for the selected item inside a flexbox(flex-start center flex-end stretch).
+            (6)->Wrap-> flex items are forced onto one line or can wrap onto multiple lines.
+            (8)->Align content->it only work with wrap(flex-start center flex-end stretch space-around,space-between)
+            (7)->order-> This property is used to specify the order of each flexible item
+            (8)->Flex-Grow->The flex-grow property specifies how much the item will grow compared to other items inside that container
+            (9)->Flex-Shrink->The flex-shrink property specifies how much the item will shrink compared to other items inside that container
+          -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS&Bootstrap/CSS/Flex/Flex.css" />
+  </head>
+  <body>
+    <h2>Flex</h2>
+    <div class="container">
+      <div class="card" style="order: 2">1</div>
+      <div class="card" style="order: 1">2</div>
+      <div class="card" style="order: 4">3</div>
+      <div class="card" style="order: 5">4</div>
+      <!-- <div class="card" style="order: 3">5</div> -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  width: 100%;
+}
+
+@media (width: 800px) {
+  .bg-container {
+    background-color: darkmagenta;
+  }
+}
+
+@media (max-width: 799px) {
+  .bg-container {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 801px) {
+  .bg-container {
+    background-color: yellowgreen;
+  }
+}
+
+/* orientation */
+
+/* @media (orientation: landscape) {
+  .bg-container {
+    background-color: red;
+  }
+}
+
+@media (orientation: portrait) {
+  .bg-container {
+    background-color: black;
+  }
+} */
+
+/* logical-operators(and) */
+
+/* @media screen and (min-width: 600px) {
+  .bg-container {
+    background-color: blue;
+  }
+}
+
+@media screen and (orientation: portrait) and (min-height: 500px) {
+  .bg-container {
+    background-color: orchid;
+  }
+} */
+
+/* Not operator */
+
+/* @media screen and (min-width: 600px) {
+  .bg-container {
+    background-color: blue;
+  }
+}
+
+@media not screen and (min-width: 600px) {
+  .bg-container {
+    background-color: orchid;
+  }
+} */
+
+/* ,(comma) */
+
+/* @media (orientation: landscape), (min-width: 600px) {
+  .bg-container {
+    background-color: orchid;
+  }
+} */
