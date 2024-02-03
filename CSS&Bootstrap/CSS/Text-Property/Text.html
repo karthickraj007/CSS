@@ -4,6 +4,16 @@
     (3)->font-family 
     (4)->font-size
     (5)->text-decoration 
+
+    3. HTML Lists
+      The List is a way to group related pieces of information so that they are easy to read and understand.
+
+      For example, Shopping list, Todo list, etc.
+
+      There are mainly two types of Lists available in HTML.
+
+      Unordered List
+      Ordered List
 -->
 
 <!DOCTYPE html>
@@ -13,21 +23,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/CSS&Bootstrap/CSS/Text-Property/Text.css" />
+    <script
+      src="https://kit.fontawesome.com/ac42c3b1f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div>
-      <div>
-        <h1 style="font-size: 25px; font-weight: bold">Tourism</h1>
-        <p
-          style="
-            font-style: italic;
-            font-family: serif;
-            text-decoration: underline;
-          "
-        >
-          Plan Your trip
-        </p>
-        <button class="button">Get Started</button>
+    <div class="text-center">
+      <h1 style="font-size: 25px; font-weight: bold">Tourism</h1>
+      <p
+        style="
+          font-style: italic;
+          font-family: serif;
+          text-decoration: underline;
+        "
+      >
+        Plan Your trip
+      </p>
+      <button class="button">Get Started</button>
+    </div>
+    <!-- Icons  -->
+    <div class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container">
+                <i class="fab fa-twitter icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-instagram icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-facebook icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

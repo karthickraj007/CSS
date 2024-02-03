@@ -11,14 +11,25 @@ grid system contain three things:
              =>Bootstrap grid system uses 12 column system for layouting.
              =>we can create up to 12 columns across the page.
     
-column wrapping:
-    important=>when more than 12 grid columns are placed in a single row, the extra columns will wrap in a new line.
+    column wrapping:
+      important=>when more than 12 grid columns are placed in a single row, the extra columns will wrap in a new line.
+
+How it works:
+  A container consists of rows and columns.
+  All the content should be placed inside these columns.
 
 bootstrap follows:
     Mobile first Approach
       (1)->First design the layout of mobile version
       (2)=>This will be adopted by devices with larger sizes.
 
+Container:
+  The Bootstrap class name container provides us default left and right spacings starting from smaller devices for a better user experience
+
+Fluid Container:
+  The Bootstrap class name container-fluid is a full width container.
+  If we don’t need left and right spacings, we can use the Bootstrap class name container-fluid instead of container.
+  
 Device	               Device Size (Width)	Class Name Prefix
 Extra small devices	   <576px	              col-
 Small devices	         >=576px	            col-sm-
