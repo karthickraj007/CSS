@@ -24,3 +24,23 @@
   border-width: 0px;
   border-radius: 10px;
 }
+
+/* ------------------------------------------------------------------ */
+
+.my-container {
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+}
+.box {
+  background-color: lightblue;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+}
+.width-in-px {
+  width: 300px;
+}
+.width-in-percent {
+  width: 50%;
+}

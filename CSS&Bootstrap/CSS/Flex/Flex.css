@@ -2,16 +2,9 @@
   border: 5px solid red;
   padding: 10px;
   display: flex;
-  /* height: 400px;
-  width: 350px;
-  flex-wrap: wrap;
-  align-content: center;
-  flex-direction: row; */
   flex-direction: row;
   justify-content: start;
   flex-wrap: wrap;
-  /* flex-direction: column;
-  align-items: start; */
 }
 
 .card {
@@ -19,19 +12,11 @@
   margin: 10px;
   padding: 30px;
   text-align: center;
+  height: 60px;
+  width: 80px;
 }
 
-/* .card {
-  background-color: blue;
-  margin: 1px;
-  height: 40px;
-  padding: 30px;
-  border: 2px solid blue;
-  flex-grow: 1;
-  flex-shrink: 1;
-} */
-
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .card {
     border: 5px solid yellow;
     width: 100vw;
@@ -76,4 +61,4 @@
     padding: 30px;
     text-align: center;
   }
-}
+} */

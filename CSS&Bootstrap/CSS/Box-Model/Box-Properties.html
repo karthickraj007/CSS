@@ -2,12 +2,12 @@
 <!-- Every Html element is a rectangular box -->
 <!-- Box Properties
     important->Each rectangular box has different properties.
-    (1)->Height
-    (2)->Width
-    (3)->Margin->spacing between two elements(outer space).
-         =>Avoid margin-left and margin-right properties for bootstrap columns it disturbs bootstrap grid system and give unexpected results.
-    (4)->Padding->spacing between content(inner space). 
-    (5)->Border(border-width,border-style,color)
+      (1)->Height
+      (2)->Width
+      (3)->Margin->spacing between two elements(outer space).
+          =>Avoid margin-left and margin-right properties for bootstrap columns it disturbs bootstrap grid system and give unexpected results.
+      (4)->Padding->spacing between content(inner space). 
+      (5)->Border(border-width,border-style,color)
  -->
 
 <!-- 
@@ -21,8 +21,15 @@
 
     (2)=> Percentage
       To define the size of a Child Element relative to its Parent Element, we can use Percentages.
--->
 
+    (3)
+     When to use 'px' vs 'vw':
+      Use 'px' when you want to set an exact size for an element. It provides consistency across different screens and devices.
+
+      Use 'vw' when you want to create a responsive design that adapts to different screen sizes. It allows elements to scale based on the size of the viewport. 
+  -->
+
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,10 +51,20 @@
       </div>
     </div>
   </body>
+</html>  -->
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/CSS&Bootstrap/CSS/Box-Model/Box-Properties.css"
+    />
+  </head>
+  <body>
+    <div class="my-container">
+      <p class="box width-in-px">Box 1</p>
+      <p class="box width-in-percent">Box 2</p>
+    </div>
+  </body>
 </html>
-
-<!-- When to use 'px' vs 'vw':
-
-Use 'px' when you want to set an exact size for an element. It provides consistency across different screens and devices.
-
-Use 'vw' when you want to create a responsive design that adapts to different screen sizes. It allows elements to scale based on the size of the viewport. -->

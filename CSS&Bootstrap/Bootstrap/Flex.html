@@ -1,21 +1,26 @@
 <!-- 
     Bootstrap is a large collection of predefined reusable code snippets written in html,css,and Javascript.
-    Bootstrap provide us reusable class names that help to design the layout using flexbox
-    (1)Layout => A Layout ia a pattern by which we structure the information and arrange the elements on the website 
-        methods to design a Layout
-        (1)->FlexBox (stable)
-            Flexbox is a layout method that helps to arrange the html element in rows(horizontally) or columns(vertically)
-                flexbox properties
-                    (1)->flexbox container(d-flex)
-                    (2)->direction(row,column)
-                    (3)->Justify content->position(row,column)->start,center,end
-                    (4)->Align Items
-                    (5)->Align Self
-                    (6)->Wrap
-                    (7)->order
-                    (8)->Align Content
+    Bootstrap provide us reusable class names that help to design the layout using flexbox.
+
+    Layout => A Layout ia a pattern by which we structure the information and arrange the elements on the website. 
+            There are two methods to design the layout of the wep page.
+              1)flexBox
+              2)gridSystem
+
+          1)FlexBox (stable) -> it is used for creating layout and arrange the element in rows & columns
+              Flexbox is a layout method that helps to arrange the html element in rows(horizontally) or columns(vertically)
+                  flexbox properties
+                      (1)->flexbox container(d-flex)
+                      (2)->direction(row,column)
+                      (3)->Justify content->position(row,column)->start,center,end
+                      (4)->Align Items
+                      (5)->Align Self
+                      (6)->Wrap
+                      (7)->order
+                      (8)->Align Content
                     
-        (2)->Css Grid(Advanced & fast growing but not stable)
+         2)->Css Grid ->it is used for creating responisve layout.
+         (Advanced & fast growing but not stable)
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -42,6 +47,15 @@
         <p>Plan Your trip</p>
         <button class="button">Get Started</button>
       </div>
+    </div>
+  </body>
+</html>
+
+<html>
+  <body>
+    <div class="my-container">
+      <p class="box width-in-px">Box 1</p>
+      <p class="box width-in-percent">Box 2</p>
     </div>
   </body>
 </html>
