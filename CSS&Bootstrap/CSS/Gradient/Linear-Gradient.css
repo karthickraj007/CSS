@@ -1,0 +1,5 @@
+.linear-gradient-background {
+  height: 100vh;
+  /* background-image: linear-gradient(red, blue, yellow, orange); */
+  background-image: linear-gradient(to left, red, blue, yellow, orange);
+}
