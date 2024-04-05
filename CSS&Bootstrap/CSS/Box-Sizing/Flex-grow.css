@@ -1,0 +1,21 @@
+.bg {
+  display: flex;
+}
+
+.box1 {
+  flex-grow: 1;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.box2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 200px;
+}
+
+.box3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 200px;
+}

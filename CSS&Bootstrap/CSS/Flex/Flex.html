@@ -1,27 +1,63 @@
 <!-- 
-    Layout => A Layout ia a pattern by which we structure the information and arrange the elements on the website. 
-            There are two methods to design the layout of the wep page.
-              1)flexBox
-              2)gridSystem
+  1)Layout
+      A Layout is a pattern to structure the information and arrange the elements on the website.
 
-    (1)FlexBox(stable)
-      Flexbox is a layout method that helps to arrange the html element in rows(horizontally) or columns(vertically)
-      flexbox properties
-          (1)->flexbox container(d-flex)
-          (2)->direction(row,column)
-          (3)->Justify content->position(row,column)->start,center,end
-          (4)->Align Items
-          (5)->Align Self
-          (6)->Wrap
-          (7)->order
-          (8)->Align Content
+  2)Methods to Design a Layout
+      Mainly, there are two methods that help design the webpage layout.
+        1)Flexbox (stable)
+            Flexbox is a layout method that helps to arrange the HTML elements in rows (horizontally) or columns (vertically).
+        2)CSS Grid (Advanced & Fast growing but not stable)
 
-    flex-row 
-        -> it will make the direction of the child element from left to right (default).
+  3)Flexbox Layout with CSS Properties
+      To achieve flexbox layout CSS provides many properties, these are a few among them.
+        1.display 2.flex-direction 3.justify-content 4.align-items 5.flex-wrap 6.align-self 7.align-content
+        8.flex-flow 9.flex-grow 10.flex-basis 11.flex-shrink
 
-    flex-column 
-        -> it will make the child element up and down instead of left to right.
+          1)Display
+            To achieve different Layouts, we can use CSS property display.
+              display:flex; - For creating Flex Container
 
+          2)Flex Direction
+              The Flex Direction specifies the direction of the flex items in the Flexbox Container.
+
+              1)When working with Flexbox layout, we need to think in terms of two axes.
+                  1.Main Axis- It is specified by the flex-direction property.
+                  2.Cross Axis- It runs perpendicular to the main axis.
+
+              2)Flex Direction property can have the following values:
+                  1.row- Direction of the flex items is horizontal.
+                  2.column- Direction of the flex items is vertical.
+
+          3)Justify Content -> main axis
+            The justify-content property specifies the alignment of flex items along the main axis.
+              1.flex-start(default) - All the elements will arrange to the start of the container.
+              2.center- All the elements will arrange to the center of the container.
+              3.flex-end- All the elements will arange to the end of the container.
+              4.space-between- Left over space will be arranged in between the flex items.
+              5.space-around- Every flex item will get space around them.
+
+          4)Align Items -> cross axis
+              The align-items property specifies the alignment of flex items along the cross axis.
+                1.stretch(default)- Will stretch its available height.
+                  Note -> it is applicable for Inline element also.
+                2.flex-start- Will be at the starting of the flex container.
+                3.center- Will be at the center of the avilable height.
+                4.flex-end- Will be at the ending point of the available height.
+
+          5)Flex Wrap
+            The flex-wrap property arranges the flex items in multiple lines.
+              1)nowrap(default)
+              2)wrap
+              3)wrap-reverse
+
+          6)Align Self
+            The align-self property specifies the alignment of Individual Flex Items along the cross axis.
+            Align Self property can have the following values:
+              1)flex-start
+              2)center
+              3)flex-end
+              4)stretch
+              5)auto(default) and more...
 -->
 
 <!DOCTYPE html>
@@ -31,15 +67,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/CSS&Bootstrap/CSS/Flex/Flex.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h2>Flex</h2>
-    <div class="container">
-      <div class="card" style="order: 2"><p>1</p></div>
-      <div class="card" style="order: 1"><p>2</p></div>
-      <div class="card" style="order: 4"><p>3</p></div>
-      <div class="card" style="order: 5"><p>4</p></div>
-      <div class="card" style="order: 3"><p>5</p></div>
+    <div class="boxes-container">
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
     </div>
   </body>
 </html>

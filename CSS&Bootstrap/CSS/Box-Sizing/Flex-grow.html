@@ -1,0 +1,50 @@
+<!-- 
+    Flex Items can Scale Up or Scale Down their size based on the available space.
+
+    1. Flexbox Sizing Properties
+         1)flex-grow(main-axis)
+        2)flex-shrink(main-axis)
+
+        1)flex-grow
+            The flex-grow property specifies how flex items Scale Up their size based on the available space.
+                0(default) -> it wont be Scale Up
+                1 -> it will be Scale Up based on the available space
+
+        2)Flex shrink
+            The flex-shrink property specifies how flex items Scale Down their size based on the available space.
+                1(default) -> it will be Scale Down based on available space
+                0 -> it wont be scale down(fixed)
+                
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Flex-grow.css" />
+  </head>
+  <body>
+    <div style="height: 100vh; border: 3px solid red; padding: 20px" class="bg">
+      <div
+        style="border: 3px solid blue; margin-bottom: 10px; padding: 10px"
+        class="box1"
+      >
+        1
+      </div>
+      <div
+        style="border: 3px solid orange; margin-bottom: 10px; padding: 10px"
+        class="box2"
+      >
+        2
+      </div>
+      <div
+        style="border: 3px solid yellow; margin-bottom: 10px; padding: 10px"
+        class="box3"
+      >
+        3
+      </div>
+    </div>
+  </body>
+</html>
