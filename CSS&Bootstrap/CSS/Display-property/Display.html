@@ -1,13 +1,10 @@
 <!-- 
   display property:
-    (1)->display:block->Displays an element as a block element and takes up the whole width
-    (2)->display:none ->	The element is completely removed
+    (1)->display:block->show the element(default)
+    (2)->display:none ->	The element is completely hide
     (3)->visibility:visible->	Default value. The element space is visible
     (4)->visibility:hidden-> The element is hidden (but element space is visible)
   
-  We can hide and show HTML elements responsively for each screen size with the Display utilities. 
-          Hide=>display-none
-          Show=>display-block and display-inline
 -->
 
 <!DOCTYPE html>
@@ -23,7 +20,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="box">1</div>
+      <div style="display: none" class="box">1</div>
       <div class="box">2</div>
       <div class="box">3</div>
     </div>

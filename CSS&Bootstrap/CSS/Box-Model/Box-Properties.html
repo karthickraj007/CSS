@@ -1,33 +1,32 @@
 <!-- 
   Css Box Model 
-      Every Html element is a rectangular box 
-      Box Properties
+      1)Every Html element is a rectangular box 
+      2)Box Properties
           (1)->Height ->The browser calculates the height of the element automatically based on its content
           (2)->Width
           (3)->Margin->spacing between two elements(outer space).
               =>Avoid margin-left and margin-right properties for bootstrap columns it disturbs bootstrap grid system and give unexpected results.
           (4)->Padding->spacing between content(inner space). 
           (5)->Border(border-width,border-style,color)
+
+      3)Percentage
+        To define the size of a Child Element relative to its Parent Element, we can use Percentages.
+        Ex:
+          <div>
+            <p style="width: 100%;">This is a paragraph</p>
+          </div>
+
+      4)ViewPort 
+        1)it is the area of the window in which web content can be seen
+          ViewPort Height(vh) 50vh = 50% area of height visisble to user
+          ViewPort Height(vh) 100vh = 100% area of height visisble to user
+
+          ViewPort Width(vw) 50vw = 50% area of width visisble to user
+          ViewPort width(vw) 100vw = 100% area of width visisble to user
+
+      5)Pixels('px')
+          Use 'px' when you want to set an exact size for an element. It provides consistency across different screens and devices.
  -->
-
-<!-- 
-    (1)=>ViewPort is the area of the window in which web content can be seen
-
-      ViewPort Height(vh) 50vh = 50% area of height visisble to user
-      ViewPort Height(vh) 100vh = 100% area of height visisble to user
-
-      ViewPort Width(vw) 50vw = 50% area of width visisble to user
-      ViewPort width(vw) 100vw = 100% area of width visisble to user
-
-    (2)=> Percentage
-      To define the size of a Child Element relative to its Parent Element, we can use Percentages.
-
-    (3)
-     When to use 'px' vs 'vw':
-      Use 'px' when you want to set an exact size for an element. It provides consistency across different screens and devices.
-
-      Use 'vw' when you want to create a responsive design that adapts to different screen sizes. It allows elements to scale based on the size of the viewport. 
-  -->
 
 <!-- 
 <!DOCTYPE html>
