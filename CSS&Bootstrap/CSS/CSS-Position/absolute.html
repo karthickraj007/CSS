@@ -1,3 +1,14 @@
+<!-- 
+ 
+1)absolute is another CSS technique that adjusts an element’s position relative to its parent.If no parent element is present, the document body is used as the parent.
+  properties:
+      1)Top
+      2)left
+      3)right
+      4)left
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,11 +17,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="./absolute.css" />
   </head>
-  <body>
-    <div class="main-container">
-      <div class="box1">
-        <p class="child">1</p>
-      </div>
+  <body style="border: 10px solid green; padding: 20px; height: 90vh">
+    <h1 class="main">Hello Karthik</h1>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div
+      style="
+        border: 2px solid yellow;
+        width: 300px;
+        height: 120px;
+        position: relative;
+      "
+    >
+      <h2 class="main" style="position: absolute; right: 20px">karthik</h2>
     </div>
   </body>
 </html>

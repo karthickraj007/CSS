@@ -1,0 +1,28 @@
+.bg-container {
+  border: 5px solid red;
+  height: 100vh;
+}
+
+.one {
+  background-color: orange;
+  margin: 20px;
+  height: 150px;
+  width: 200px;
+}
+
+.two {
+  background-color: red;
+  margin: 20px;
+  height: 150px;
+  width: 200px;
+  position: relative;
+  left: 50px;
+  top: 80px;
+}
+
+.three {
+  background-color: blue;
+  margin: 20px;
+  height: 150px;
+  width: 200px;
+}

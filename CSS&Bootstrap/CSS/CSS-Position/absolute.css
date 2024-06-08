@@ -1,18 +1,14 @@
-.main-container {
+.container {
   border: 2px solid red;
-  height: 100vh;
-  padding: 50px;
+  height: 90vh;
+  width: 95%;
 }
 
-.box1 {
-  border: 3px solid blue;
-  height: 200px;
-  width: 200px;
-  text-align: center;
-  /* position: relative; */
-}
-
-.child {
+.main {
+  color: blue;
+  font-size: 25px;
   position: absolute;
-  left: 30px;
+  right: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
 }
