@@ -74,5 +74,9 @@
 19.Universal Selector (*)
     Selects all the HTML elements within the document.
 
+20.Dom
+    1)dom is a document object model
+    2)Dom is the structured representation of the content in the HTML document created by the browser.
+
 
 */
