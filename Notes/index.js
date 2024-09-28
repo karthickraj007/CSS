@@ -6,7 +6,7 @@
 2.what is css?
     1)CSS is a computer language
     2)it stands for Cascading style sheets.
-    3)it used to define styling and layout of web pages
+    3)it used to define styling and layout of web pages.
 
 3.what is javascript?
     JavaScript is a programming language that adds dynamic features to web pages, such as interactivity and animation.
@@ -53,7 +53,7 @@
       It tells the web browser which version of HTML you are using so it can display the page correctly.
 
 16.what is flex?
-    it is used to create wepage design layout.
+    it is used to create layout of weppage.
 
 17.Box Model
     1)Every Html element is a rectangular box.
@@ -76,7 +76,7 @@
 
 20.Dom
     1)dom is a document object model
-    2)Dom is the structured representation of the content in the HTML document created by the browser.
+    2)Dom is the structured representation of the content.
 
 
 */
