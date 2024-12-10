@@ -1,6 +1,6 @@
 /*
 
-1. What is HTML?
+1.What is HTML?
     HTML stands for HyperText Markup Language. It is used to design web pages.
 
 2.what is css?
@@ -9,7 +9,7 @@
     3)it used to define styling and layout of web pages.
 
 3.what is javascript?
-    JavaScript is a programming language that adds dynamic features to web pages, such as interactivity and animation.
+    JavaScript is a scripting language that adds dynamic features to web pages, such as interactivity and animation.
 
 4.Block-Level Elements
     1)A block-level element always starts on a new line.
@@ -40,7 +40,7 @@
     3)internal style
 
 12.absoulte
-    1)it is used to move element from parent(not staic), not affecting other elements.
+    1)it allow you yo move element from parent(not staic), not affecting other elements.
     2)no space is created for the element in the page layout.
 
 13.realtive
